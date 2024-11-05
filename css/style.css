@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    
-    background-color:beige;
+     background-color:black;
 }
 .header .container-1 {
     display: flex;
@@ -14,13 +13,11 @@ body {
 
 }
 .container-1 {
-    background-color:black;
     width: 100%;
     min-height: 100px;
     padding-left: 20px;
     padding-right: 20px;
     margin:0 auto 0 auto;
-
 }
 .links {
     margin-right: 20px;
@@ -44,7 +41,7 @@ body {
    margin: 10px;
 }
 
-.couter {
+.counter {
     background-color: red;
     width:15px;
     height:15px;
@@ -65,18 +62,14 @@ body {
  padding:20px;
  font-size:30px ;
 }
-.join {
-    
-    background-color: #FFFFFF;
-    color:black;
+button.join {
+    padding: 34px 20px;
+    border-radius: 40px;
+    border-color: #FFFFFF;
     width: 232px;
     height: 68px;
-    border-radius: 40px;
-    padding: 34px 20px;
     box-shadow:0px 4px 14px #FFFFFF;
-    border-color: #FFFFFF;
-    margin-top: 10px;
-
+    
 }
 .t-join {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -84,5 +77,69 @@ body {
     font-size: 18px;
     line-height: 28%;
     width: 164px;
+    color: #000000;
     text-shadow: 0px 4px 4px #000000 25%;
+}
+button.order{
+    padding: 34px 20px;
+    border-radius: 40px;
+    border-color: #FFFFFF;
+    width: 232px;
+    height: 68px;
+   margin-top:20px;
+    box-shadow:0px 4px 14px #FFFFFF;
+}
+.t-order{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28%;
+    width: 164px;
+    color: #000000;
+    text-shadow: 0px 4px 4px #000000 25%;
+} 
+.b-color{
+    background-image: linear-gradient(rgba(0, 0, 0, 80%) 0%,rgba(0, 0, 0, 60%) 40%,rgba(0, 0, 0, 0%) 60%,rgba(0, 0, 0, 0%) 100%);
+}
+.top-sec {
+  background-image: url("/imgs/burger pic.jpg");
+  width: 100%;
+  min-height:818px;
+  background-position: center;
+  background-size: cover; 
+  opacity: 100%;
+  box-shadow:0 4 4 0 #000000 25%;
+  
+}
+.top-sec1{
+    position: absolute;
+    width: 652px;
+    height: 466px;
+    top: 29%;
+    right: 25%;
+}
+.top-des{
+    width:625px;
+    height:358px;
+}
+.greet {
+  width: 652px;
+  height: 288px;
+  text-align: left;
+  padding-top: 2px;
+  line-height: 96px;
+  font-size: 66px;
+  text-align: right;
+  color: #FFFFFF;
+  text-shadow: 0 4 4 0 #000000 25%;
+}
+.des{
+ color: #FFFFFF;
+ line-height: 30px;
+ letter-spacing: 0%;
+ font-size: 20px;
+ width: 510px;
+ height: 60px;
+ text-align: left;
+ margin-top: -8%;
 }
