@@ -143,3 +143,64 @@ button.order{
  text-align: left;
  margin-top: -8%;
 }
+.sect2-container {
+      width:1170px;
+      height: 646px;
+      text-align: center;
+      display: grid;
+      grid-auto-flow: column;
+      column-gap: 70px;
+}
+.sect2-title {
+      width: 820px;
+      height: 146px;
+      text-align: center;
+      margin: 16px;
+      color: #FFFFFF;
+}
+.title {
+     width:713px;
+     height: 70px;
+     font-size: 50px;
+     font-weight: bold;
+     line-height: 70px;
+     letter-spacing: 0%;
+     text-align: center;
+     color: #FFFFFF;
+}
+.title-par{
+      width:820px;
+      height: 60px;
+      font-size: 20px;
+      font-weight: normal;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 30px;
+      color: #FFFFFF;
+}
+.sect2-des{
+     width: 1170px;
+     height: 430px;
+    display: grid;
+    row-gap: 87px;
+    color: #FFFFFF;
+} 
+.title-des {
+    width: 513px;
+    height: 430px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+.link-page {
+    font-weight: bold;
+    color:#FFFFFF;
+    font-size: large;
+}
+.video-img{
+   width: 570px;
+   height: 430px;
+   border-radius: 12px;
+}
