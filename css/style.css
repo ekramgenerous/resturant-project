@@ -205,18 +205,55 @@ button.order{
    border-radius: 12px;
 }
 .sect3-menu{
-
+   width: 1170px;
+   height:1308px;
+   display: grid;
+   grid-auto-flow: column;
+   gap: 80px;
 }
 .container-menu{
-
+    width:1170px;
+    height: 156px;
+    grid-auto-flow: column;
+    gap: 40px;
 }
 .title-menu{
-
+    width: 770px;
+    height: 70px;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 70px;
+    letter-spacing: 0;
+    text-align: center;
 }
 .menu-cat{
+    width: 1170px;
+    height:46px;
+    display: flow-root;
+    grid-auto-flow: row;
+    gap:104px;
+
+}
+.menu-cat-links{
+    list-style-type: none;
+    color: #FFFFFF;
+
+}
+.menu-cat-links li {
+    width: 64px;
+    height:46px;
+    padding: 20px 8px 20px 8px;
+    border-radius: 10px;
+
 
 }
 .container-food{
+    width:1170px;
+    height: 924px;
+    display: flex;
+   flex-wrap: wrap;
+   gap:30px 40px;
 
 }
 .sandwiches{
@@ -236,4 +273,21 @@ button.order{
 }
 .sandwich-cart{
     
+
+}
+.btn-menu{
+    width: 168px;
+    height:68px;
+    padding:54px 20px 54px 20px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color:#000000;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: center;
 }
