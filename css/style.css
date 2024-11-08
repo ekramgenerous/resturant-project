@@ -1,41 +1,95 @@
 * {
     box-sizing: border-box;
+    padding:0;
+    margin:0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+}
+:root{
+    --main-color:#0000;
+    --secondary-color:#FFFF;
+}
+html {
+    scroll-behavior: smooth;
 }
 body {
-     background-color:black;
-}
-.header .container-1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    position: relative;
-
+     background-color:var(--main-color);
 }
 .container-1 {
-    width: 100%;
-    min-height: 100px;
     padding-left: 20px;
     padding-right: 20px;
-    margin:0 auto 0 auto;
-}
-.links {
-    margin-right: 20px;
-    padding: 20px;
-    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+} 
+/* responsive  */
+/* small */
+@media (min-width: 768px) {
+    .container-1{
+        width:280px ;
+    }
 
 }
+
+/* medium */
+@media (min-width: 992px){
+   .container-1{
+    width:620px ;
+   }
+
+}
+
+/*large */
+
+@media (min-width: 1200px) {
+    .container-1{
+        width:1169px;
+    }
+
+}
+/* components  */
+.header {
+    position: absolute;
+    left:0;
+    width:100%;
+    top:20%;
+}
+header.container-1 {
+    /* margin-right: 20px;
+    padding: 20px;
+    list-style-type: none; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: var(--main-color);
+
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    list-style-type: none;
+    position: absolute;
+    padding: 60px;
+    gap: 70px;
+}
 .links li {
-    margin-right: 20px;
+    /* margin-right: 20px;
     font-size: 20px;;
     color:#FFFFFF;
-    
+     */
+     padding-right: 6px;
 }
 .links a {
     color:#FFFFFF;
     text-decoration: none;
 }
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
 
+}
 .logo {
    padding:20px;
    margin: 10px;
@@ -272,7 +326,7 @@ button.order{
 
 }
 .sandwich-cart{
-    
+
 
 }
 .btn-menu{
